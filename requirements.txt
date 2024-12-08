@@ -1,0 +1,10 @@
+google==3.0.0
+google-api-core==2.19.2
+google-auth==2.34.0
+google-cloud-vision==3.7.4
+googleapis-common-protos==1.65.0
+grpcio==1.66.1
+grpcio-status==1.66.1
+proto-plus==1.24.0
+protobuf==5.28.0
+rsa==4.9
