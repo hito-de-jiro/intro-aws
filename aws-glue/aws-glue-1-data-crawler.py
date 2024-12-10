@@ -4,7 +4,7 @@ import json
 client = boto3.client('glue', region_name="us-west-2")
 response = client.create_crawler(
     Name='S3Crawler',
-    Role='GlueFullAccess',
+    Role='AWSGlueConsoleFullAccess',
     DatabaseName='S3CrawlerHOC',
     Targets={
         'S3Targets': [
