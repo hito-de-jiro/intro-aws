@@ -1,39 +1,37 @@
-------
-to do: 
-	
-		
-
+to do:
 	AWS CLI
 		get acquainted with the AWS CLI
-		install AWS CLI to local machine
 		read documentation
+		fought script's cheatsheet
 
 	AWS SDK
 		get acquainted with the AWS SDK
 		install SDK / boto3 on work machine
 
-	AWS Glue deployment
+	AWS Glue (deployment)
 		get acquainted with the AWS Glue
 		read documentation on AWS
 		
-	AWS Lambda deployment
+	AWS Lambda (deployment)
 		get acquainted with the AWS Lambda
 	
 prepare:
-	create test account on AWS
+	create test account on AWS +
+	added and configured test account local     +
+	configured PyCharm for work with AWS        +
+
 	
 	to AWS CLI:
 		install AWS CLI					+
 		configure AWS credentials		+
-		install AWS CLI to PyCharm
-	
-	
+		install AWS CLI to PyCharm      +
+
 do work:
-	created test account
+
 	AWS CLI:
-		installed AWS CLI local
-		configured AWS
-		started AWS CLi with PyCharm
-		
-		
-	
+		read tutors and docs AWS CLI
+		install AWS CLI to local machine
+		run some simple scripts
+
+
+AWS SAM
