@@ -1,8 +1,6 @@
 import boto3
 import json
 
-
-
 client = boto3.client('glue', region_name="us-west-2")
 response = client.create_crawler(
     Name='S3Crawler',
@@ -11,14 +9,14 @@ response = client.create_crawler(
     Targets={
         'S3Targets': [
             {
-                'Path': 's3://glue-source-hoc/read',
+                'Path': 's3://my-test-bucket-for-glue-source-hoc/read',
                 'Exclusions': [
                     'string',
                 ],
                 'SampleSize': 2
             },
             {
-                'Path': 's3://glue-source-hoc/write',
+                'Path': 's3://my-test-bucket-for-glue-source-hoc/write',
                 'Exclusions': [
                     'string',
                 ],
