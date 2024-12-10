@@ -34,4 +34,15 @@ do work:
 		run some simple scripts
 
 
-AWS SAM
+    AWS SAM
+        read docs
+        ran an example
+
+    AWS SDK
+        read docs
+        install boto3
+        run examples
+
+    AWS Glue (deployment)
+        read docs
+        
